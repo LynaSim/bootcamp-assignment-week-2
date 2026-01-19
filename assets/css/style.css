@@ -15,15 +15,32 @@ header {
 }
 
 .sticky-menu-container {
+    position: sticky;
+    top: 0px;
+
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+
     background-color: aliceblue;
 }
 
 
-.navbar-logo img {
-    justify-self: flex-start;
+#navbar-logo {
+    height: 50px;
+    margin: 5px;
+    /* margin-right: auto; */
 }
+
+.navbar {
+    margin-right: 10px;
+
+    display: flex;
+
+
+}
+
+
 
 
 .banner {
