@@ -36,9 +36,24 @@ header {
     margin-right: 10px;
 
     display: flex;
+    justify-content: center;
+}
 
+.navbar a {
+    text-decoration: none;
+    margin: 0px 5px;
+    padding: 5px 10px;
+    border: 1px dashed purple;
+    border-radius: 5px;
 
 }
+
+.navbar a:hover {
+    background-color: indigo;
+    color: aliceblue;
+    transform:scale(1.2);
+}
+
 
 
 
@@ -51,5 +66,9 @@ header {
 .banner img {
     max-width: 100%;
     /* height: auto; */
+}
+
+div.space-holder {
+    height: 1000px;
 }
 
