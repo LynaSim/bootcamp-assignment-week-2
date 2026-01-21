@@ -25,6 +25,7 @@ body {
 }
 
 header {
+    min-width: 800px;
     width: 100%;
     background-color: #75006f;
     color:aliceblue;
@@ -34,13 +35,15 @@ header {
 }
 
 .banner {
+    min-width: 800px;
     text-align: center;
     /* margin: 20px 0; */
 }
 
+.banner img {
+    min-width: 800px;
 
-
-
+}
 
 #navbar-logo {
 
