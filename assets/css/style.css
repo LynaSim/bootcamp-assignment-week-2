@@ -109,6 +109,7 @@ main{
 
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 
     /* min-width: 800px; */
     background-color: aliceblue;
@@ -156,7 +157,6 @@ h3::before {
 
 
 footer {
-        width: 100%;
-
+    width: 100%;
     background-color: aqua;
 }
