@@ -1,4 +1,5 @@
 
+
 body {
     
     width: 100%;
@@ -8,6 +9,14 @@ body {
     padding: 0;
     text-align: center;
     background-color: grey;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Horizontal alignment */
+    align-items: center;     /* Vertical alignment */
+    min-height: 100vh;       /* Takes up the full height of the viewport */
 }
 
 .menu-container {
@@ -82,12 +91,15 @@ input.search-bar {
     /* width: 60%; */
 }
 
-
+main{
+    width: 100%;
+}
 .middle-container {
+    width: 100%;
+
     display: flex;
     justify-content: space-evenly;
 
-    /* width: 100%; */
     /* min-width: 800px; */
     background-color: aliceblue;
     text-decoration: none;
@@ -134,5 +146,7 @@ h3::before {
 
 
 footer {
+        width: 100%;
+
     background-color: aqua;
 }
