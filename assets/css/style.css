@@ -33,6 +33,14 @@ header {
     padding: 0px;
 }
 
+.banner {
+    text-align: center;
+    /* margin: 20px 0; */
+}
+
+
+
+
 
 #navbar-logo {
 
@@ -69,16 +77,6 @@ input.search-bar {
     display: inline-block;
     /* font-size: 1rem; */
     /* width: 60%; */
-}
-
-.banner {
-    width: 100%;
-    text-align: center;
-    /* margin: 20px 0; */
-}
-
-.banner img {
-    width: 100%;
 }
 
 
@@ -123,7 +121,7 @@ h3::before {
     border-radius: 10px;
     padding: 5px 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .services-box ul {
