@@ -86,7 +86,7 @@ header {
 .navbar a:hover {
     background-color: indigo;
     color: aliceblue;
-    transform:scale(1.2);
+    transform: scale(1.2);
 }
 
 input.search-bar {
@@ -118,6 +118,8 @@ h3 {
     text-transform: uppercase;
     border-bottom: 1px dashed aliceblue;
     padding-bottom: 10px;
+    margin-bottom: 10px;
+
 }
 
 h3::before {
@@ -137,13 +139,38 @@ h3::before {
     padding: 5px 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 16px;
+
 }
 
 .services-box ul {
     list-style: none;
 }
 
+/* Read more links */
 
+p.readmore {
+    margin-top: 50px; 
+}
+
+a.readmore {
+    text-decoration: none;
+    padding: 3px 7px;
+    border: 2px dashed aliceblue;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+
+.readmore a:hover {
+    background-color: indigo;
+    transform: scale(1.2);
+}
+
+
+
+/* Footer styles */
 footer {
     width: 100%;
     background-color: aqua;
