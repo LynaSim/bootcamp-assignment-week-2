@@ -3,6 +3,7 @@
 body {
     
     width: 100%;
+    height: 100vh;
     /* min-width: 800px; */
     font-family: Arial, sans-serif;
     margin: 0;
@@ -16,22 +17,10 @@ body {
     flex-direction: column;
     justify-content: center; /* Horizontal alignment */
     align-items: center;     /* Vertical alignment */
-    min-height: 100vh;       /* Takes up the full height of the viewport */
+    height: 100vh;       /* Takes up the full height of the viewport */
 }
 
-.menu-container {
-    z-index: 1;
-    /* stops the navbar disappearing behind the banner */
-    position: sticky;
-    top: 0px;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    background-color: aliceblue;
-
-}
+/* bannner styles */
 
 header {
     width: 100%;
@@ -52,6 +41,27 @@ header {
     width: 100%;
 
 }
+
+
+/* navbar styles */
+
+.menu-container {
+    z-index: 1;
+    /* stops the navbar disappearing behind the banner */
+    position: sticky;
+    top: 0px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    
+
+    background-color: aliceblue;
+
+}
+
+
 
 #navbar-logo {
 
