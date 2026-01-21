@@ -12,13 +12,7 @@ body {
     background-color: grey;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Horizontal alignment */
-    align-items: center;     /* Vertical alignment */
-    height: 100vh;       /* Takes up the full height of the viewport */
-}
+
 
 /* bannner styles */
 
@@ -46,9 +40,10 @@ header {
 /* navbar styles */
 
 .menu-container {
+    width: 100%;
     z-index: 1;
     /* stops the navbar disappearing behind the banner */
-    position: sticky;
+    position: fixed;
     top: 0px;
 
     display: flex;
@@ -61,8 +56,6 @@ header {
 
 }
 
-
-
 #navbar-logo {
 
     height: 50px;
@@ -72,6 +65,8 @@ header {
 .navbar {
     display: flex;
     justify-content: center;
+
+    flex: 1 1 200px;
 }
 
 .navbar a {
@@ -83,6 +78,7 @@ header {
     border: 2px dashed purple;
     border-radius: 5px;
     color: indigo;
+    flex: 1 1 50px;
 
 }
 
