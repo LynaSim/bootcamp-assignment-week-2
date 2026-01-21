@@ -2,7 +2,7 @@
 body {
     
     width: 100%;
-    min-width: 800px;
+    /* min-width: 800px; */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -85,7 +85,7 @@ input.search-bar {
     justify-content: space-evenly;
 
     /* width: 100%; */
-    min-width: 800px;
+    /* min-width: 800px; */
     background-color: aliceblue;
     text-decoration: none;
 
