@@ -111,7 +111,7 @@ main{
 
 }
 
-h3 {
+.services-box h3 {
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
@@ -122,13 +122,13 @@ h3 {
 
 }
 
-h3::before {
+.services-box h3::before {
     content: "🐱";
 }
 
 .services-box {
     
-    flex: 1 1 200px;
+    flex: 1 1 150px;
     height: 250px;
     margin: 20px;
     
@@ -180,11 +180,61 @@ footer {
 .book-container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
-/*
+
 .book-container img {
     flex: 1 1;
 }
+
+/* About article */
+
+.article {
+    
+    flex: 1 1;
+    height: auto;
+    margin: 20px;
+    /* background-color: purple; */
+    color: indigo;
+    border: 1px dashed indigo;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img-container {
+    flex: 1 1 400px;
+
+}
+
+.img-container img {
+    width: 100%;
+}
+
+div.article-text {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+
+.article-heading {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+/* 
+div.img-container {
+    width: 50%;
+    flex: 1 1;
+}
  */
+
 
