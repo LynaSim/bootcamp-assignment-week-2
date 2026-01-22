@@ -175,3 +175,16 @@ footer {
     width: 100%;
     background-color: aqua;
 }
+
+/* Book club cards */
+.book-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*
+.book-container img {
+    flex: 1 1;
+}
+ */
+
