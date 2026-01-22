@@ -1,3 +1,14 @@
+/* CSS variables */
+:root {
+    --bg-color: purple;
+    --text-color: aliceblue;
+    --border-color: indigo;
+    --body-bg-color: aliceblue;
+
+}
+
+
+
 /* Mini reset */
 
 * { margin: 0;
@@ -14,7 +25,7 @@ body {
     
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: aliceblue;
+    background-color: var(--body-bg-color);
 }
 
 
@@ -23,7 +34,7 @@ body {
 
 header {
     width: 100%;
-    background-color: #75006f;
+    background-color: var(--bg-color);
     color:aliceblue;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
@@ -53,7 +64,7 @@ header {
     flex-wrap: wrap;
     align-items: center;
     
-    background-color: aliceblue;
+    background-color: var(--body-bg-color);
 
 }
 
@@ -77,15 +88,15 @@ header {
     margin-right: 5px;
     margin-bottom: 5px;
     padding: 3px 7px;
-    border: 2px dashed purple;
+    border: 2px dashed var(--bg-color);
     border-radius: 5px;
-    color: indigo;
+    color: var(--border-color);
 
 }
 
 .navbar a:hover {
-    background-color: indigo;
-    color: aliceblue;
+    background-color: var(--border-color);
+    color: var(--text-color);
     transform: scale(1.2);
 }
 
@@ -106,7 +117,7 @@ main{
     justify-content: space-evenly;
     flex-wrap: wrap;
 
-    background-color: aliceblue;
+    background-color: var(--body-bg-color);
     text-decoration: none;
 
 }
@@ -116,7 +127,7 @@ main{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     text-transform: uppercase;
-    border-bottom: 1px dashed aliceblue;
+    border-bottom: 1px dashed var(--text-color);
     padding-bottom: 10px;
     margin-bottom: 10px;
 
@@ -132,9 +143,9 @@ main{
     height: auto;
     margin: 20px;
     
-    background-color: purple;
+    background-color: var(--bg-color);
     color: aliceblue;
-    border: 2px solid indigo;
+    border: 2px solid var(--border-color);
     border-radius: 10px;
     padding: 5px 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -144,27 +155,29 @@ main{
 
 .services-box ul {
     list-style: none;
+    margin-top: 15px;
 }
+
 
 /* Read more links */
 
 p.readmore {
-    margin-top: 50px; 
+    margin-top: 40px; 
 }
 
 a.readmore {
     text-decoration: none;
     padding: 3px 7px;
-    border: 2px dashed aliceblue;
+    border: 2px dashed var(--text-color);
     border-radius: 5px;
-    color: aliceblue;
+    color: var(--text-color);
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
 }
 
 .readmore a:hover {
-    background-color: indigo;
+    background-color: var(--border-color);
     transform: scale(1.2);
 }
 
@@ -173,7 +186,8 @@ a.readmore {
 /* Footer styles */
 footer {
     width: 100%;
-    background-color: aqua;
+    background-color: var(--border-color);
+    color: var(--text-color);
 }
 
 
@@ -201,8 +215,8 @@ div.book-img-container {
     height: auto;
     margin: 20px;
     /* background-color: purple; */
-    color: indigo;
-    border: 1px dashed indigo;
+    color: var(--border-color);
+    border: 1px dashed var(--border-color);
     border-radius: 10px;
     padding: 5px 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
