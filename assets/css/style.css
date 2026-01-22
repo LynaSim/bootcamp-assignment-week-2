@@ -101,6 +101,7 @@ header {
 }
 
 input.search-bar {
+    width: 180px;
     margin-right: 10px;
     padding: 5px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -316,6 +317,14 @@ button {
 
 button:hover {
     background-color: var(--border-color);
+}
+
+label.email::before {
+    content: "📧";
+}
+
+label.phone::before{
+    content: "📞";
 }
 
 
