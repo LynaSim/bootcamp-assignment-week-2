@@ -129,7 +129,7 @@ main{
 .services-box {
     
     flex: 1 1 150px;
-    height: 250px;
+    height: auto;
     margin: 20px;
     
     background-color: purple;
@@ -235,11 +235,23 @@ div.article-text {
     margin-bottom: 10px;
 }
 
-/* 
-div.img-container {
-    width: 50%;
-    flex: 1 1;
+/* cat cards for the cats page */
+
+.cat-desc-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
- */
+
+div.cat-img-container {
+    flex: 0 1;
+}
+
+.cat-img-container img {
+    width: 100%;
+    /* height: auto; */
+}
+
+
 
 
